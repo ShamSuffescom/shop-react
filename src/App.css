@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*11.06.24*/
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar-wrapper {
+  min-width: 250px;
+  max-width: 250px;
+  background-color: #f8f9fa;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
